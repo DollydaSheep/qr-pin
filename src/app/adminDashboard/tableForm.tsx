@@ -6,6 +6,7 @@ import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, Tabl
 export default function TableForm(){
   return(
     <div className="w-full lg:w-[calc(100%-290px)] h-screen p-8 box-border lg:translate-x-[288px] translate-x-0">
+      <div className="bg-[url(/lickitung.png)] bg-center bg-no-repeat bg-contain inset-0 -z-1 absolute opacity-10 sm:scale-75"></div>
       <div>
         <Table>
           <TableCaption>Customized Pin Customers</TableCaption>

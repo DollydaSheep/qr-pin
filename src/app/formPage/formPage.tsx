@@ -4,7 +4,8 @@ import { Input } from "@/components/ui/input";
 
 export default function FormPageComponent(){
   return(
-    <div className="flex items-center justify-center h-screen w-full">
+    <div className="flex items-center justify-center h-screen w-full ">
+      <div className="bg-[url(/lickitung.png)] bg-center bg-no-repeat bg-contain inset-0 -z-1 absolute opacity-10 sm:scale-50"></div>
       <div className="w-full m-4 box-border sm:w-2xl p-6 border border-gray-200 rounded-lg">
         <span className="flex items-center mb-4">
           <img src="/kenjie.jpg" className="aspect-square" width={40} alt="" />
